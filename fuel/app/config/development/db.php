@@ -6,7 +6,7 @@
 return array(
 	'default' => array(
 		'connection'  => array(
-			'dsn'        => 'mysql:host=localhost;dbname=fuel_dev',
+			'dsn'        => 'mysql:host=localhost;dbname=fuel_dev;unix_socket=/var/lib/mysql/mysql.sock',
 			'username'   => 'root',
 			'password'   => 'root',
 		),
